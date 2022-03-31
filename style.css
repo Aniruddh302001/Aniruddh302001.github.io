@@ -117,7 +117,7 @@ header a:hover {
 }
 
 .social-icons a {
-  margin: 0 24px;
+  margin: 0 10px;
 }
 
 .social-icons a:nth-of-type(1) {
@@ -131,24 +131,24 @@ header .hero-image {
 }
 
 header .hero-image img {
-  transition: 300ms;
+  transition: 500ms;
   position: relative;
   z-index: 100;
 }
 
 header .hero-image img:hover {
-  transform: rotate(-6deg);
+  transform: rotate(-10deg);
 }
 
 header .hero-image .photo-bg {
   position: absolute;
-  width: 500px;
-  height: 500px;
-  left: 45px;
-  top: 24px;
+  width: 1000px;
+  height: 1000px;
+  left: 65px;
+  top: 44px;
 
   background: #44a1a0;
-  transform: rotate(-6deg);
+  transform: rotate(-10deg);
 }
 
 /* Search Box */
